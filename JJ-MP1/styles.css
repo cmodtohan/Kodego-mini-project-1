@@ -19,7 +19,7 @@
     justify-content: end;
     align-items: center;
     padding: 10px 10px;
-    width: 500px;
+    width: 29%;
     position: relative;
     cursor: pointer;
     border-radius: 16px;
@@ -34,15 +34,14 @@
     background-color: rgb(255, 102, 42);
     border: 3px solid red;
     padding: 7px 7px;
-    border-radius: 20px;
-   
+    border-radius: 20px; 
 }
 
 .middle-section {
     background-color: white;
     font-family: 'poppins', sans-serif;
     font-size: 20px;
-    font-weight: 500px;
+    font-weight: 500;
     flex: 1;
     display: flex;
     justify-content: space-between;
@@ -62,7 +61,6 @@
     background-color: rgb(255, 102, 42);
     border: 3px solid red;
     padding: 12px 17px 12px 17px;
-
 }
 
 .right-section {
@@ -70,7 +68,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 22%;
 }
 
 .phone {
@@ -81,7 +79,8 @@
     border-radius: 10px;
     font-size: 17px;
     line-height: 17px;
-    width: 350px;
+    margin-right: 3%;
+    width: 100%;
     font-size: large;
     font-weight: 500;
     cursor: pointer;
@@ -103,6 +102,7 @@ a {
 body {
     padding-bottom: 2000px;
     padding-top: 150px;
+    margin: 0;
 }
 
 
@@ -131,8 +131,6 @@ video {
 }
 
 .video-text {
-    /* background-color: lightpink;
-    border: 1px solid black; */
     color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
@@ -326,6 +324,7 @@ video {
     transition: .5s;
 }
 
+
 /* introduction */
 .intro-box {
     display: flex;
@@ -422,6 +421,10 @@ video {
     cursor: pointer;
 }
 
+.phone2:hover {
+    opacity: 0.8;
+}
+
 .intro-pic-1 {
     width: 290px;
     margin-left: 10px;
@@ -507,6 +510,7 @@ video {
     width: 302.5px;
 }
 
+
 /* widget */
 .widget-box-overlay-1 {
     font-size: 50px;
@@ -526,13 +530,12 @@ video {
     font-weight: 400;
 }
 
-/* resort facilities */
 
+/* resort facilities */
 .resort-box {
     background-color: none;
     margin-top: 120px;
-    margin-left: 340px;
-    width: 1200px;
+    width: 100%;
     height: 517px;
     display: flex;
     flex-direction: column;
@@ -573,13 +576,13 @@ video {
 
 .resort-box-3 {
     display: flex;
-    width: 1200px;
+    width: 64%;
     margin-top: 25px;
     height: 192px;
 }
 
 .diving {
-    width: 400px;
+    width: 33%;
     margin-right: 20px;
     height: 192px;
     display: flex;
@@ -591,7 +594,7 @@ video {
 }
 
 .island-hopping {
-    width: 400px;
+    width: 33%;
     margin-right: 20px;
     height: 192px;
     display: flex;
@@ -603,7 +606,7 @@ video {
 }
 
 .food {
-    width: 400px;
+    width: 33%;
     height: 192px;
     display: flex;
     flex-direction: column;
@@ -639,20 +642,22 @@ video {
     border: 10px;
     display: flex;
     margin-top: 100px;
-    margin-left: -8px;
-    width: 1903px;
+    width: 100%;
     height: 476px;
     position: relative;
 }
+.picture-left, .picture-right {
+    width: 100%;
+}
 
 .diver {
-    width: 951.5px;
+    width: 100%;
     height: 476px;
     opacity: 0.8;
 }
 
 .resort-right {
-    width: 951.5px;
+    width: 100%;
     height: 476px;
     opacity: 0.9;
 }
@@ -661,7 +666,7 @@ video {
     color: white;
     position: absolute;
     height: 170px;
-    width: 600px;
+    width: 33%;
     margin-left: 150px;
     margin-top: 100px;
     font-size: 46px;
@@ -678,7 +683,7 @@ video {
     position: absolute;
     margin-left: 150px;
     margin-top: 300px;
-    width: 120px;
+    width: 100px;
     padding: 18px 34px 18px 34px;
     font-family: 'poppins', sans-serif;
     font-weight: 600;
@@ -686,6 +691,10 @@ video {
     border-radius: 10px;
     text-align: center;
     cursor: pointer;
+}
+
+.get-code:hover {
+    opacity: 0.9;
 }
 
 .number-1 {
@@ -696,11 +705,242 @@ video {
     font-weight: 500;
     font-family:  'poppins', sans-serif;
     margin-left: 1483px;
-    margin-top: 290px;
+    margin-top: 270px;
     width: 400px;
-    height: 110px;
+    height: 90px;
     padding: 10px;
-
 }
 
+
+/* customer support */
+.customer-support-box {
+    margin-top: 120px;
+    width: 100%;
+    height: 517px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+}
+
+.customer-support {
+display: flex;
+font-size: 42px;
+font-family: 'poppins', sans-serif;
+font-weight: 600;
+margin-bottom: 25px;
+color: black;
+}
+
+.customer-support-lower {
+    color: #333333;
+    display:flex;
+    width: 64%;
+    height: 429px;
+    justify-content: space-evenly;
+}
+
+
+.fb-box {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 265px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin-left: 18px;
+    margin-right: 18px;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 265px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.office-box {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 265px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.support-icon {
+    font-size: 35px;
+    line-height: 35px;
+    color: #ffcc29;
+}
+
+.support-icon-1 {
+    font-size: 28px;
+    line-height: 30px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+}
+.support-details {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+}
+
+
+/* why choose us */
+.choose-us-box {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 616px;
+    justify-content: center;
+}
+
+.choose-box-left {
+    display: flex;
+    flex-direction: column;
+    color: darkgreen;
+    background-color: white;
+    margin-top: 80px;
+    width: 28.5%;
+    height: 395px;
+    padding: 30px;
+    align-content: flex-start;
+}
+
+.why-choose-us {
+    color: #ffcc29;
+    font-size: 24px;
+    font-family: "berkshire swash", sans-serif;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.vacations-relax {
+    color: black;
+    font-weight: 700;
+    font-size: 42px;
+    font-family: 'poppins', sans-serif;
+    line-height: 46px;
+    margin-bottom: 15px;
+}
+
+.choose-us-details {
+    color: black;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 27px;
+    flex: 1;
+    font-weight: 500;
+}
+
+.choose-us-details2 {
+    border-bottom: 1px solid lightgrey;
+}
+
+.choose-box-right {
+    margin-top: 80px;
+    width: 28.5%;
+    height: 455px;
+}
+
+.resort-2 {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* featured rooms */
+.featured-rooms-box {
+    display: flex;
+    width: 100%;
+    height: 695px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 50px;
+    position: relative;
+}
+
+.featured-rooms-box-2 {
+    display: flex;
+    width: 64%;
+    height: 695px;
+    margin: auto;
+    position: relative;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.featured-rooms {
+    font-size: 42px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.room-details-box {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    height: 517px;
+}
+
+.room-box-a, .room-box-b, .room-box-c {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.room-box-b {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.view-details {
+    background-color: rgb(248, 245, 245);
+    color: black;
+    border: 3px solid orange;
+    font-size: 15px;
+    width: 150px;
+    padding: 5px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.view-details:hover {
+    opacity: 0.7;
+}
+
+.room-pic {
+    height: 400px;
+    margin-bottom: 15px;
+}
+
+.room-number {
+    margin-bottom: 15px;
+    color: black;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+}
+
+.room-image {
+    width: 100%;
+    height: 100%;
+}
 
