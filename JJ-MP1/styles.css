@@ -1074,13 +1074,106 @@ color: black;
 }
 
 
+/*footer box start*/
 
+.footer-bg {
+    position: absolute;
+    display: flex;
+    width: 1903.3px;
+    height: 353px;
+}
 
+.map {
+    width: 1903.3px;
+    height: 446px;
+    position: relative;
+    display: flex;
+    background-color: rgb(104, 102, 102)
+}
 
+.footer-box {
+    margin: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 1903.3px;
+    height: 353px;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
+.footer-left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 413px;
+    height: 358px;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
+.logo-footer {
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 166px;
+}
 
+.footer-details {
+    color: #f7f7f7;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    position: relative;
+    text-align: center;
+}
 
+.button-widgets-box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #ffcc29;
+    font-size: 40px;
+}
 
+.useful-links-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
 
+.useful-links-title {
+    font-family: 'poppins', sans-serif;
+    font-size: 22px;
+    color: #f7f7f7;
+    font-weight: 500;
+}
 
+.useful-links-box2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: 'poppins', sans-serif;
+    color: #f7f7f7;
+    font-size: 16px;
+  
+    margin: 20px;
+}
+
+.get-in-touch-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.get-in-touch-box-2 {
+position: relative;
+display: flex;
+flex-direction: column;
+font-family: 'poppins', sans-serif;
+color: #f7f7f7;
+font-size: 16px;
+margin: 20px;
+}
